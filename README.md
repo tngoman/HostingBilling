@@ -19,3 +19,5 @@ Payment Gateways
 5. Paypal
 6. Stripe
 7. Razorpay
+
+Sell or Purchase Hosting Billing modules at www.hostingbilling.net
