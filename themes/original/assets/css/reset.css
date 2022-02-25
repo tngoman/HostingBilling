@@ -1,0 +1,327 @@
+/*-----------------------------------------------------------------------------------*/
+/*	RESET
+/*-----------------------------------------------------------------------------------*/
+*,
+*:before,
+*:after {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+:focus {
+outline: 0 !important
+}
+.fit-vids-style {
+display: none
+}
+figure {
+margin: 0;
+padding: 0;
+}
+
+img {
+height: auto;
+max-width: 100%;
+vertical-align: middle;
+border: 0px none;
+}
+
+iframe {
+border: none
+}
+
+::selection {
+background: #4396ff; /* Safari */
+color: #a9c9f0;
+}
+
+::-moz-selection {
+background: #4396ff; /* Firefox */
+color: #a9c9f0;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	GENERAL
+/*-----------------------------------------------------------------------------------*/
+
+html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+padding: 0;
+border: 0;
+font-size: 14px;
+line-height: 14px;
+font: inherit; 
+}
+
+body {
+-webkit-font-smoothing: antialiased;
+-webkit-text-size-adjust: 100%;
+font-family: 'Open Sans', sans-serif;
+overflow-x: hidden;
+overflow-y: scroll;
+background-color: #FFF;
+color: #7a7a7a;
+font-size: 14px;
+font-weight: 500;
+}
+
+ 
+.inner {
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+.inner-top {
+padding-top: 95px;
+padding-bottom: 0px;
+}
+
+.inner-img {
+padding-top: 70px;
+padding-bottom: 70px;
+}
+
+.inner-fluid {
+    padding-bottom: 90px;
+}
+
+.inner-shop {
+    padding-bottom: 100px;
+}
+
+.inner-f {
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+.inner-page {
+padding-top: 110px; 
+}
+
+.inner-parallax {
+padding-top: 70px;
+padding-bottom: 70px;
+}
+
+
+.none-background {
+background:transparent !important;
+}
+
+body {
+    line-height:1;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+nav ul {
+    list-style:none;
+}
+ 
+blockquote, q {
+    quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+p {
+	margin:0;
+	padding:0;
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+    line-height: 25px
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+del {
+    text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+input, select {
+    vertical-align:middle;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	DIVCODES
+/*-----------------------------------------------------------------------------------*/
+
+.divcod5 {
+width: 100%;
+height: 5px;
+display: block;
+}
+
+.divcod10 {
+width: 100%;
+height: 10px;
+display: block;
+}
+
+.divcod15 {
+width: 100%;
+height: 15px;
+display: block;
+}
+
+.divcod20 {
+width: 100%;
+height: 20px;
+display: block;
+}
+
+.divcod25 {
+width: 100%;
+height: 25px;
+display: block;
+}
+
+.divcod30 {
+width: 100%;
+height: 30px;
+display: block;
+}
+
+.divcod35 {
+width: 100%;
+height: 35px;
+display: block;
+}
+
+.divcod40 {
+width: 100%;
+height: 40px;
+display: block;
+}
+
+.divcod45 {
+width: 100%;
+height: 40px;
+display: block;
+}
+
+.divcod50 {
+width: 100%;
+height: 50px;
+display: block;
+}
+
+.divcod55 {
+width: 100%;
+height: 55px;
+display: block;
+}
+
+.divcod60 {
+width: 100%;
+height: 60px;
+display: block;
+}
+
+.divcod65 {
+width: 100%;
+height: 65px;
+display: block;
+}
+
+.divcod70 {
+width: 100%;
+height: 70px;
+display: block;
+}
+
+.divcod75 {
+width: 100%;
+height: 75px;
+display: block;
+}
+
+.divcod80 {
+width: 100%;
+height: 80px;
+display: block;
+}
+
+.divcod85 {
+width: 100%;
+height: 85px;
+display: block;
+}
+
+.text-center{
+text-align: center !important;
+}
+
+.text-left {
+text-align: left !important;
+}
+
+.text-right{
+text-align: right !important;
+}
+
+.float-left {
+float: left !important;
+}
+
+.float-right{
+float: right !important;
+}
+
+.pb-0{  
+    padding-bottom: 0; /*No Padding on the bottom area*/  
+}  
+.pt-0 {  
+    padding-top: 0; /*No Padding on the top area*/  
+}  
+.pt-10 {  
+    padding-top: 10px; /*Padding top 10px on the top area*/  
+}  
+.ptb-10 {  
+    padding: 10px 0; /*Padding top & bottom 10px on the top & bottom area*/  
+}  
+.mt-0 {  
+    margin-top: 0; /*No margin on the top area*/  
+}  
+.mb-0 {  
+    margin-bottom: 0; /*No margin on the bottom area*/  
+}
+ 

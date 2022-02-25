@@ -1,0 +1,426 @@
+2020-06-25 17:39:39 : ITN received from payfast.co.za
+2020-06-25 17:39:39 : Valid IPs:
+Array
+(
+    [0] => 41.74.179.210
+    [1] => 41.74.179.211
+    [2] => 41.74.179.194
+    [3] => 41.74.179.201
+    [4] => 41.74.179.197
+    [6] => 41.74.179.217
+    [7] => 41.74.179.193
+    [8] => 41.74.179.218
+    [10] => 41.74.179.200
+    [11] => 41.74.179.212
+    [12] => 197.97.145.156
+    [13] => 41.74.179.195
+    [14] => 41.74.179.204
+    [15] => 41.74.179.196
+    [16] => 41.74.179.203
+    [17] => 197.97.145.150
+    [18] => 197.97.145.145
+    [19] => 197.97.145.148
+    [21] => 197.97.145.149
+)
+
+2020-06-25 17:39:39 : POST received from payfast.co.za: Array
+(
+    [m_payment_id] => 4
+    [pf_payment_id] => 1078714
+    [payment_status] => COMPLETE
+    [item_name] => INV0003
+    [item_description] => Hosting Billing
+    [amount_gross] => 7651.68
+    [amount_fee] => -175.98
+    [amount_net] => 7475.70
+    [custom_str1] => 
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => James Doe
+    [name_last] => 1526873
+    [email_address] => tngoman@ymail.com
+    [merchant_id] => 10001316
+    [signature] => 2a9451c7aa380d3ee260d6c50cd44da2
+)
+
+2020-06-25 17:39:39 : Signature = invalid
+2020-06-25 17:39:39 : Signature mismatch on POST
+2020-06-25 17:45:23 : ITN received from payfast.co.za
+2020-06-25 17:45:23 : Valid IPs:
+Array
+(
+    [0] => 41.74.179.210
+    [1] => 41.74.179.211
+    [2] => 41.74.179.203
+    [3] => 41.74.179.217
+    [4] => 41.74.179.212
+    [5] => 41.74.179.204
+    [6] => 41.74.179.218
+    [7] => 41.74.179.195
+    [8] => 41.74.179.201
+    [9] => 197.97.145.156
+    [10] => 41.74.179.196
+    [11] => 41.74.179.193
+    [12] => 41.74.179.200
+    [14] => 41.74.179.194
+    [16] => 41.74.179.197
+    [17] => 197.97.145.149
+    [18] => 197.97.145.145
+    [20] => 197.97.145.148
+    [21] => 197.97.145.150
+)
+
+2020-06-25 17:45:23 : POST received from payfast.co.za: Array
+(
+    [m_payment_id] => 4
+    [pf_payment_id] => 1078719
+    [payment_status] => COMPLETE
+    [item_name] => INV0003
+    [item_description] => Hosting Billing
+    [amount_gross] => 7651.68
+    [amount_fee] => -175.98
+    [amount_net] => 7475.70
+    [custom_str1] => 
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => James Doe
+    [name_last] => 1526873
+    [email_address] => tngoman@ymail.com
+    [merchant_id] => 10001316
+    [signature] => f53c58073f8b7338e56e567a323369ff
+)
+
+2020-06-25 17:45:23 : Signature = invalid
+2020-06-25 17:45:23 : Signature mismatch on POST
+2020-06-25 17:48:18 : ITN received from payfast.co.za
+2020-06-25 17:48:18 : Valid IPs:
+Array
+(
+    [0] => 41.74.179.210
+    [1] => 41.74.179.211
+    [2] => 41.74.179.204
+    [3] => 41.74.179.197
+    [4] => 41.74.179.212
+    [5] => 41.74.179.200
+    [7] => 41.74.179.196
+    [8] => 41.74.179.193
+    [10] => 41.74.179.218
+    [11] => 197.97.145.156
+    [12] => 41.74.179.217
+    [13] => 41.74.179.201
+    [14] => 41.74.179.203
+    [15] => 41.74.179.194
+    [16] => 41.74.179.195
+    [17] => 197.97.145.150
+    [18] => 197.97.145.149
+    [19] => 197.97.145.148
+    [21] => 197.97.145.145
+)
+
+2020-06-25 17:48:18 : POST received from payfast.co.za: Array
+(
+    [m_payment_id] => 4
+    [pf_payment_id] => 1078720
+    [payment_status] => COMPLETE
+    [item_name] => INV0003
+    [item_description] => Hosting Billing
+    [amount_gross] => 7651.68
+    [amount_fee] => -175.98
+    [amount_net] => 7475.70
+    [custom_str1] => 
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => James Doe
+    [name_last] => 1526873
+    [email_address] => tngoman@ymail.com
+    [merchant_id] => 10001316
+    [signature] => 3efa7c4552c8732dc528f2aeed80c012
+)
+
+2020-06-25 17:48:18 : Signature = valid
+2020-06-25 17:48:18 : Signature OK
+2020-06-25 17:48:18 : beginning of function pfValidData
+2020-06-25 17:48:18 : 
+2020-06-25 17:48:18 : Host = https://sandbox.payfast.co.za
+2020-06-25 17:48:18 : Params = m_payment_id=4&pf_payment_id=1078720&payment_status=COMPLETE&item_name=INV0003&item_description=Hosting+Billing&amount_gross=7651.68&amount_fee=-175.98&amount_net=7475.70&custom_str1=&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=James+Doe&name_last=1526873&email_address=tngoman%40ymail.com&merchant_id=10001316
+2020-06-25 17:48:18 : URL = https://sandbox.payfast.co.za/eng/query/validate
+2020-06-25 17:48:18 : 
+2020-06-25 17:48:18 : using fsockopen (ssl://sandbox.payfast.co.za, 443, errno, errstr, {PF_TIMEOUT})
+2020-06-25 17:48:19 : Response:
+VALID
+2020-06-25 17:48:19 : ITN OK
+2020-06-25 17:48:19 : ITN verified for m_payment_id=4&pf_payment_id=1078720&payment_status=COMPLETE&item_name=INV0003&item_description=Hosting+Billing&amount_gross=7651.68&amount_fee=-175.98&amount_net=7475.70&custom_str1=&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=James+Doe&name_last=1526873&email_address=tngoman%40ymail.com&merchant_id=10001316
+
+2020-06-25 18:08:32 : ITN received from payfast.co.za
+2020-06-25 18:08:32 : Valid IPs:
+Array
+(
+    [0] => 41.74.179.210
+    [1] => 41.74.179.211
+    [2] => 41.74.179.196
+    [3] => 41.74.179.193
+    [4] => 41.74.179.201
+    [5] => 41.74.179.197
+    [6] => 41.74.179.204
+    [7] => 41.74.179.203
+    [8] => 41.74.179.194
+    [9] => 41.74.179.217
+    [11] => 41.74.179.200
+    [12] => 41.74.179.195
+    [13] => 197.97.145.156
+    [14] => 41.74.179.212
+    [15] => 41.74.179.218
+    [18] => 197.97.145.148
+    [19] => 197.97.145.150
+    [20] => 197.97.145.149
+    [21] => 197.97.145.145
+)
+
+2020-06-25 18:08:32 : POST received from payfast.co.za: Array
+(
+    [m_payment_id] => 4
+    [pf_payment_id] => 1078731
+    [payment_status] => COMPLETE
+    [item_name] => INV0003
+    [item_description] => Hosting Billing
+    [amount_gross] => 7651.68
+    [amount_fee] => -175.98
+    [amount_net] => 7475.70
+    [custom_str1] => 
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 2
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => James Doe
+    [name_last] => 1526873
+    [email_address] => tngoman@ymail.com
+    [merchant_id] => 10001316
+    [signature] => 5d06dbb7478f6e9e72b158f86ae80b3b
+)
+
+2020-06-25 18:08:32 : Signature = invalid
+2020-06-25 18:08:32 : Signature mismatch on POST
+2020-06-25 18:11:54 : ITN received from payfast.co.za
+2020-06-25 18:11:54 : Valid IPs:
+Array
+(
+    [0] => 41.74.179.210
+    [1] => 41.74.179.211
+    [2] => 41.74.179.218
+    [3] => 197.97.145.156
+    [4] => 41.74.179.212
+    [5] => 41.74.179.196
+    [6] => 41.74.179.193
+    [8] => 41.74.179.203
+    [10] => 41.74.179.204
+    [11] => 41.74.179.217
+    [12] => 41.74.179.201
+    [13] => 41.74.179.195
+    [14] => 41.74.179.194
+    [15] => 41.74.179.200
+    [16] => 41.74.179.197
+    [17] => 197.97.145.149
+    [18] => 197.97.145.150
+    [20] => 197.97.145.145
+    [21] => 197.97.145.148
+)
+
+2020-06-25 18:11:54 : POST received from payfast.co.za: Array
+(
+    [m_payment_id] => 4
+    [pf_payment_id] => 1078732
+    [payment_status] => COMPLETE
+    [item_name] => INV0003
+    [item_description] => Hosting Billing
+    [amount_gross] => 7651.68
+    [amount_fee] => -175.98
+    [amount_net] => 7475.70
+    [custom_str1] => 
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 2
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => James Doe
+    [name_last] => 1526873
+    [email_address] => tngoman@ymail.com
+    [merchant_id] => 10001316
+    [signature] => 8907fb422b40a763adfdb35049f09ce6
+)
+
+2020-06-25 18:11:54 : Signature = valid
+2020-06-25 18:11:54 : Signature OK
+2020-06-25 18:11:54 : beginning of function pfValidData
+2020-06-25 18:11:54 : 
+2020-06-25 18:11:54 : Host = https://sandbox.payfast.co.za
+2020-06-25 18:11:54 : Params = m_payment_id=4&pf_payment_id=1078732&payment_status=COMPLETE&item_name=INV0003&item_description=Hosting+Billing&amount_gross=7651.68&amount_fee=-175.98&amount_net=7475.70&custom_str1=&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=2&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=James+Doe&name_last=1526873&email_address=tngoman%40ymail.com&merchant_id=10001316
+2020-06-25 18:11:54 : URL = https://sandbox.payfast.co.za/eng/query/validate
+2020-06-25 18:11:54 : 
+2020-06-25 18:11:54 : using fsockopen (ssl://sandbox.payfast.co.za, 443, errno, errstr, {PF_TIMEOUT})
+2020-06-25 18:11:55 : Response:
+VALID
+2020-06-25 18:11:55 : ITN OK
+2020-06-25 18:11:55 : ITN verified for m_payment_id=4&pf_payment_id=1078732&payment_status=COMPLETE&item_name=INV0003&item_description=Hosting+Billing&amount_gross=7651.68&amount_fee=-175.98&amount_net=7475.70&custom_str1=&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=2&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=James+Doe&name_last=1526873&email_address=tngoman%40ymail.com&merchant_id=10001316
+
+2020-06-28 09:05:31 : ITN received from payfast.co.za
+2020-06-28 09:05:31 : Valid IPs:
+Array
+(
+    [0] => 41.74.179.210
+    [1] => 41.74.179.211
+    [2] => 41.74.179.193
+    [3] => 41.74.179.203
+    [4] => 41.74.179.217
+    [6] => 41.74.179.200
+    [7] => 197.97.145.156
+    [8] => 41.74.179.194
+    [9] => 41.74.179.218
+    [11] => 41.74.179.201
+    [12] => 41.74.179.204
+    [13] => 41.74.179.195
+    [14] => 41.74.179.196
+    [15] => 41.74.179.212
+    [16] => 41.74.179.197
+    [17] => 197.97.145.148
+    [18] => 197.97.145.150
+    [19] => 197.97.145.149
+    [20] => 197.97.145.145
+)
+
+2020-06-28 09:05:31 : POST received from payfast.co.za: Array
+(
+    [m_payment_id] => 8
+    [pf_payment_id] => 1086588
+    [payment_status] => COMPLETE
+    [item_name] => INV0007
+    [item_description] => Hosting Billing
+    [amount_gross] => 7238.08
+    [amount_fee] => -166.47
+    [amount_net] => 7071.61
+    [custom_str1] => 
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 2
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => James Doe
+    [name_last] => 1526873
+    [email_address] => tngoman@ymail.com
+    [merchant_id] => 10001316
+    [signature] => 82060ff91f175bc0b091416829019e1b
+)
+
+2020-06-28 09:05:31 : Signature = valid
+2020-06-28 09:05:31 : Signature OK
+2020-06-28 09:05:31 : beginning of function pfValidData
+2020-06-28 09:05:31 : 
+2020-06-28 09:05:31 : Host = https://sandbox.payfast.co.za
+2020-06-28 09:05:31 : Params = m_payment_id=8&pf_payment_id=1086588&payment_status=COMPLETE&item_name=INV0007&item_description=Hosting+Billing&amount_gross=7238.08&amount_fee=-166.47&amount_net=7071.61&custom_str1=&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=2&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=James+Doe&name_last=1526873&email_address=tngoman%40ymail.com&merchant_id=10001316
+2020-06-28 09:05:31 : URL = https://sandbox.payfast.co.za/eng/query/validate
+2020-06-28 09:05:31 : 
+2020-06-28 09:05:31 : using fsockopen (ssl://sandbox.payfast.co.za, 443, errno, errstr, {PF_TIMEOUT})
+2020-06-28 09:05:31 : Response:
+VALID
+2020-06-28 09:05:31 : ITN OK
+2020-06-28 09:05:31 : ITN verified for m_payment_id=8&pf_payment_id=1086588&payment_status=COMPLETE&item_name=INV0007&item_description=Hosting+Billing&amount_gross=7238.08&amount_fee=-166.47&amount_net=7071.61&custom_str1=&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=2&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=James+Doe&name_last=1526873&email_address=tngoman%40ymail.com&merchant_id=10001316
+
+2020-06-28 09:16:30 : ITN received from payfast.co.za
+2020-06-28 09:16:30 : Valid IPs:
+Array
+(
+    [0] => 41.74.179.210
+    [1] => 41.74.179.211
+    [2] => 41.74.179.218
+    [3] => 41.74.179.217
+    [5] => 41.74.179.194
+    [6] => 197.97.145.156
+    [8] => 41.74.179.203
+    [9] => 41.74.179.204
+    [10] => 41.74.179.193
+    [11] => 41.74.179.197
+    [12] => 41.74.179.212
+    [13] => 41.74.179.200
+    [14] => 41.74.179.201
+    [15] => 41.74.179.196
+    [16] => 41.74.179.195
+    [17] => 197.97.145.150
+    [18] => 197.97.145.148
+    [20] => 197.97.145.145
+    [21] => 197.97.145.149
+)
+
+2020-06-28 09:16:30 : POST received from payfast.co.za: Array
+(
+    [m_payment_id] => 9
+    [pf_payment_id] => 1086599
+    [payment_status] => COMPLETE
+    [item_name] => INV0008
+    [item_description] => Hosting Billing
+    [amount_gross] => 7238.08
+    [amount_fee] => -166.47
+    [amount_net] => 7071.61
+    [custom_str1] => 
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 2
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => James Doe
+    [name_last] => 1526873
+    [email_address] => tngoman@ymail.com
+    [merchant_id] => 10018446
+    [signature] => b56b56461cb91bf4087e573cbf6ebd50
+)
+
+2020-06-28 09:16:30 : Signature = valid
+2020-06-28 09:16:30 : Signature OK
+2020-06-28 09:16:30 : beginning of function pfValidData
+2020-06-28 09:16:30 : 
+2020-06-28 09:16:30 : Host = https://sandbox.payfast.co.za
+2020-06-28 09:16:30 : Params = m_payment_id=9&pf_payment_id=1086599&payment_status=COMPLETE&item_name=INV0008&item_description=Hosting+Billing&amount_gross=7238.08&amount_fee=-166.47&amount_net=7071.61&custom_str1=&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=2&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=James+Doe&name_last=1526873&email_address=tngoman%40ymail.com&merchant_id=10018446
+2020-06-28 09:16:30 : URL = https://sandbox.payfast.co.za/eng/query/validate
+2020-06-28 09:16:30 : 
+2020-06-28 09:16:30 : using fsockopen (ssl://sandbox.payfast.co.za, 443, errno, errstr, {PF_TIMEOUT})
+2020-06-28 09:16:30 : Response:
+VALID
+2020-06-28 09:16:30 : ITN OK
+2020-06-28 09:16:30 : ITN verified for m_payment_id=9&pf_payment_id=1086599&payment_status=COMPLETE&item_name=INV0008&item_description=Hosting+Billing&amount_gross=7238.08&amount_fee=-166.47&amount_net=7071.61&custom_str1=&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=2&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=James+Doe&name_last=1526873&email_address=tngoman%40ymail.com&merchant_id=10018446
+

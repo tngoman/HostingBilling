@@ -1,0 +1,113 @@
+.content:before {
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  display: block;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+/*div {
+    direction: rtl;
+}*/
+ 
+
+.content {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto auto;
+  position:relative;
+}
+
+#content > .container {
+    z-index: 5;
+}
+
+.panel{
+  margin-bottom: 10px;
+}
+
+#content {
+    margin-top: 30px;
+}
+
+
+#content .navbar-brand {
+    height: auto;
+    margin-top: 20px;
+    width: 420px;
+    padding: 0;
+}
+
+.navbar-brand img {
+    max-height: 100px;
+    vertical-align: middle;
+    display: inline;
+}
+
+#footer {
+    margin-bottom: 20px;
+}
+
+#content .panel {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+#login-form form.panel-body {
+  padding-top:20px;
+ 
+  }
+#login-form div.panel-body {
+  padding:30px 30px 0 0;
+}
+.bg-dark {
+    background-color: #38354a;
+    border-right-color: #38354a;
+}
+.btn-dark {
+    color: #fff !important;
+    background-color: #38354a;
+    border-color: #2e3e4e;
+}
+.bg-dark .lt {
+    background-color: #38354a;
+}
+
+input[type=date],
+input[type=email],
+input[type=password],
+input[type=tel],
+input[type=text],
+input[type=url] {
+    border: 1px solid #c5cdd4;
+    border-radius: 3px;
+    padding: 10px;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    font-size: 1.3rem;
+    min-height: 30px;
+    height: 40px;
+    box-shadow: none;
+    font-weight: 400
+}
+
+input[type=date],
+input[type=email]:focus,
+input[type=password]:focus,
+input[type=tel]:focus,
+input[type=text]:focus,
+input[type=url]:focus {
+    border: 1px solid #92bcee;
+    box-shadow: 0 0 0 1px #92bcee;
+    outline: none;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
