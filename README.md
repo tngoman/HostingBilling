@@ -1,7 +1,7 @@
 # HostingBilling
 Open source Web Hosting automation system with a built in content management system.
 
-Addons
+Addon modules included:
 
 Control Panels
 1. cPanel
@@ -21,3 +21,7 @@ Payment Gateways
 7. Razorpay
 
 Sell or Purchase Hosting Billing modules at www.hostingbilling.net
+
+Demo: http://demo.hostingbilling.net/
+Username: admin
+Password: 654321
