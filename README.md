@@ -23,5 +23,7 @@ Payment Gateways
 Sell or Purchase Hosting Billing modules at www.hostingbilling.net
 
 Demo: http://demo.hostingbilling.net/
+
 Username: admin
+
 Password: 654321
