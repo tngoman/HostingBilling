@@ -4,50 +4,36 @@
 
 class Update extends CI_Model
 { 
-	function __construct()
-	{
-		parent::__construct();	
-		require_once FCPATH.'/core/core_config.php';
-		require_once FCPATH.'/core/core_updates.php'; 
-	}
-
-
+	
 	static function get_versions()
 	{
-		return ausGetAllVersions();
+		return true;
 	}
 
 
 	static function version($id)
 	{
-		return ausGetVersion($id);
+		return true;
 	}
 
 
 	static function install($id)
 	{
-		return ausDownloadFile('version_upgrade_file', $id); 	
+		return true;	
 	}
 
 
 	static function database($id)
 	{
-		return ausFetchQuery('upgrade', $id);
+		return true;
 	}
 
-
-    private static function _p($msg){
-        $ci =& get_instance();
-        $ci->session->set_flashdata('response_status', 'error');
-        $ci->session->set_flashdata('message', $msg);
-        redirect('updates');
-	}
-	
+ 
   
 
 	static function update_database()
 	{
-		return ausFetchQuery();
+		return true;
 	}
 
 	
