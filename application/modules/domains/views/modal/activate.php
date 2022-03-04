@@ -24,25 +24,16 @@
 								<span></span>
 							</label></td>
 							<td>
-							<select name="registrar" class="form-control m-b">
-							<option value=""><?=lang('registrar')?></option>
-							<?php 
-							
-							if(config_item('resellerclub_live') == 'TRUE') { ?>
-							<option value="resellerclub">ResellerClub</option>
-							<?php }
-
-							if(config_item('domainscoza_live') == 'TRUE') { ?>
-								<option value="domainscoza">DomainsCO.ZA</option>
-							<?php }
-
-
-							if(config_item('namecheap_live') == 'TRUE') { ?>
-								<option value="namecheap">Namecheap</option>
-								<?php }
-							
-							?>
-						</select></td></tr>				 
+							<select name="registrar[]" class="form-control m-b">
+							<?php                                    
+                                    $registrars = Plugin::domain_registrars();
+                                    foreach ($registrars as $registrar)
+                                    {?> 
+									<option value="<?=$registrar->system_name;?>"><?=ucfirst($registrar->system_name);?></option>
+                                    <?php } ?>
+	
+							</select>
+						</td></tr>				 
 					</tbody>
 				</table>
 				
