@@ -83,6 +83,7 @@
                         <label class="col-lg-7 control-label"><?=lang('require_domain')?></label>
                         <div class="col-lg-5">
                             <label class="switch">
+                            <input type="hidden" value="off" name="require_domain">
                             <input type="checkbox"
                                     <?php if($item->require_domain == 'Yes'){ echo "checked=\"checked\""; } ?>
                                     name="require_domain">
