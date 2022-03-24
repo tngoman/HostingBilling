@@ -38,7 +38,7 @@ function get_tags($template)
             return array('INVOICE_LOGO', 'USERNAME', 'ACTIVATE_URL', 'ACTIVATION_PERIOD', 'EMAIL', 'PASSWORD', 'SITE_NAME', 'SIGNATURE');
             break;
         case 'hosting_account':
-            return array('INVOICE_LOGO', 'CLIENT', 'ACCOUNT_USERNAME', 'ACCOUNT_PASSWORD', 'DOMAIN', 'RENEWAL_DATE', 'PACKAGE', 'RENEWAL', 'AMOUNT', 'SITE_NAME', 'SIGNATURE');
+            return array('INVOICE_LOGO', 'CLIENT', 'ACCOUNT_USERNAME', 'ACCOUNT_PASSWORD', 'DOMAIN', 'RENEWAL_DATE', 'PACKAGE', 'RENEWAL', 'AMOUNT', 'SITE_NAME', 'SIGNATURE', 'SERVER_URL', 'NAMESERVER_1', 'NAMESERVER_2', 'NAMESERVER_3', 'NAMESERVER_4', 'NAMESERVER_5');
             break;
         case 'service_suspended':
             return array('CLIENT', 'DOMAIN', 'RENEWAL_DATE', 'PACKAGE', 'RENEWAL', 'AMOUNT', 'SITE_NAME', 'SIGNATURE');

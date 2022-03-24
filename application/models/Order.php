@@ -31,7 +31,7 @@ class Order extends CI_Model
 
 	static function get_order($id)
 	{
-		self::$db->select('orders.*, items.*, servers.type AS server_type, status.status AS order_status, items_saved.package_name, servers.name AS server_name, reseller_package');			
+		self::$db->select('orders.*, items.*, servers.type AS server_type, status.status AS order_status, items_saved.package_name, servers.name AS server_name, servers.hostname, servers.ns1, servers.ns2, servers.ns3, servers.ns4, servers.ns5, reseller_package');			
 		self::$db->from('orders');
 		self::$db->join('items','orders.item = items.item_id','LEFT');
 		self::$db->join('items_saved','orders.item_parent = items_saved.item_id','LEFT');
@@ -265,7 +265,13 @@ class Order extends CI_Model
 		$amount = str_replace("{AMOUNT}", App::currencies(config_item('default_currency'))->symbol . Applib::format_quantity($account->total_cost), $renewal);
 		$EmailSignature = str_replace("{SIGNATURE}", $signature, $amount);
 		$client_name = str_replace("{CLIENT}", $client->company_name, $EmailSignature);
-		$message = str_replace("{SITE_NAME}",config_item('company_name'),$client_name);
+		$company = str_replace("{SITE_NAME}",config_item('company_name'),$client_name);
+		$server = str_replace("{SERVER_URL}",$account->hostname,$company);
+		$ns1 = str_replace("{NAMESERVER_1}",$account->ns1,$server);
+		$ns2 = str_replace("{NAMESERVER_2}",$account->ns2,$ns1);
+		$ns3 = str_replace("{NAMESERVER_3}",$account->ns3,$ns2);
+		$ns4 = str_replace("{NAMESERVER_4}",$account->ns4,$ns3);
+		$message = str_replace("{NAMESERVER_5}",$account->ns5,$ns4); 
 
 		$params = array(
 			'recipient' => $client->company_email,
