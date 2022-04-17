@@ -20,37 +20,15 @@ Payment Gateways
 6. Stripe
 7. Razorpay
 
+
+
+DEMO & INSTALLATION INSTRUCTIONS
 =====================================
 
-DEMO
-=====================================
-
-Demo: http://demo.hostingbilling.net/
-
-Username: admin
-Password: 654321
-
-
-
-=====================================
-
-INSTALLATION
-=====================================
-
-1. Create a new MySQl database
-2. Download the files from this repository and upload them to your website directory 
-3. Open the website URL on your browser
-4. A step by step installer will start. Simply follow the steps to complete the installation
-5. Navivate to System -> Plugins to enable/disable plugins
-6. Navigate to Servers to add server and configure servers
-
-
-
-=====================================
-
-PREMIUM PLUGINS
-=====================================
-
-Sell or Purchase Hosting Billing modules at www.hostingbilling.net
-
-
+ http://hostingbilling.net/  
+ 
+ 
+ 
+ MORE INFO
+ ==================================
+ http://hostingbilling.net/articles
