@@ -19,17 +19,3 @@ Payment Gateways
 5. Paypal
 6. Stripe
 7. Razorpay
-
-
-
-
-DEMO & INSTALLATION INSTRUCTIONS
-=====================================
-
- http://hostingbilling.net/  
- 
- 
- 
- MORE INFO
- ==================================
- http://hostingbilling.net/articles
